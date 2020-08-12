@@ -1,0 +1,28 @@
+{
+  "name": "WXnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0",
+    "loadsh": "0.0.4",
+    "mysql2": "^2.1.0",
+    "require-directory": "^2.1.1",
+    "sequelize": "^6.3.4",
+    "util": "^0.12.3",
+    "validator": "^13.1.1"
+  }
+}
