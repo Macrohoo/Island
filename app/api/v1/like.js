@@ -1,7 +1,7 @@
 const Router = require('koa-router')
 
 const {Favor} = require('../../models/favor')
-const {Auth} = require('../../../middlewares/auth')
+const {Auth} = require('../../../middlewares/auth')         //在所有需要解析jwt用户数据的接口，都会进行new Auth()中间件拦截
 const { LikeValidator } = require('../../validators/validator')
 const {success} = require('../../lib/helper')
 
